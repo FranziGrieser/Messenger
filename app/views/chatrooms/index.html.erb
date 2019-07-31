@@ -10,31 +10,13 @@
           <div class="event">
               <div class="content">
                 <div class="summary">
-                   <em>Elliot Fu</em>: Nice chat
+                  <% @messages.each do |m|%>
+                     <em><%= m.user.username %></em>:
+                     <%= m.body %></br>
+                   <% end %>
                 </div>
               </div>
             </div>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                 <em>Stevie Feliciano</em>: I am writing
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                 <em>Helen Troy</em>: How you doing?
-              </div>
-            </div>
-          </div>
-          <div class="event">
-          <div class="content">
-            <div class="summary">
-               <em>Christian Rocha</em>: Good here
-            </div>
-          </div>
-        </div>
         </div>
       </div>
       <div class="extra content">

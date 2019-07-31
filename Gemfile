@@ -5,6 +5,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "2.6.2"
 
+gem "annotate", "~> 2.7.5"
 gem "bootsnap", ">= 1.1.0", require: false
 gem "bcrypt", "~> 3.1.13"
 gem "coffee-rails", "~> 4.2"

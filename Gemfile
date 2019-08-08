@@ -25,6 +25,7 @@ end
 
 group :development do
   gem "annotate", "~> 2.7.5"
+  gem "better_errors", "~> 2.5.1"
   gem "listen", ">= 3.0.5", "< 3.2"
   gem "pry-rails", "~> 0.3.9"
   gem "spring"

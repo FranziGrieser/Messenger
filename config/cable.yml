@@ -8,3 +8,5 @@ production:
   adapter: redis
   url: redis://redistogo:f501d53472343f58aec485a93646271b@hammerjaw.redistogo.com:11556/
   channel_prefix: messenger_production
+
+# https://blog.heroku.com/real_time_rails_implementing_websockets_in_rails_5_with_action_cable
